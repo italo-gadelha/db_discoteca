@@ -1,0 +1,1 @@
+Este projeto foi desenvolvido no Curso de DBA do SENAI, tem um intuito de praticar o uso do git e github.
