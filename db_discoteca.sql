@@ -77,10 +77,7 @@ MODIFY id_disco INT NOT NULL AUTO_INCREMENT;
 ALTER TABLE musica
 ADD CONSTRAINT fk_id_disco FOREIGN KEY (id_disco) REFERENCES disco (id_disco);
 
--- PROCEDURE
-DELIMITER //
-CREATE PROCEDURE sp_insert_genero (nome_genero VARCHAR(20))
-BEGIN
-INSERT INTO genero (nome) VALUES (nome_genero);
-END //
-DELIMITER ;
+-- INCREMENT PARA GRAVADORA
+
+ALTER TABLE gravadora
+MODIFY id_gravadora INT NOT NULL AUTO_INCREMENT;
