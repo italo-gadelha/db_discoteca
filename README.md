@@ -7,19 +7,19 @@ Abaixo você encontrá uma breve apresentação do banco.
 
 # MODELO CONCEITUAL
 
-![conceitual](image.png)
+![Conceitual](https://user-images.githubusercontent.com/86980974/212477679-22a8521a-9e19-4968-81c8-2b80ce0fbe93.PNG)
 
 
 # MODELO LOGICO  
 
-![logico](image-1.png)
+![db_discoteca](https://user-images.githubusercontent.com/86980974/212477764-7b61d409-4274-4bce-9dd4-0003df84c580.png)
 
 
 _______________________________________________
 
 # ESTRUTURA DO BANCO DE DADOS 
 			
-![estruturas](image-2.png)
+![image](https://user-images.githubusercontent.com/86980974/212478469-4c9bb88a-4682-4470-86ae-6b8720ecfa46.png)
 
 _______________________________________________
 
