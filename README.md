@@ -43,10 +43,10 @@ _______________________________________________
 # Procedures:
 ### Procedures de INSERT
 - `Procedure 1`: sp_insert_artista: Insere um novo artista na tabela tb_artista, verificando se os dados de entrada (nome, ano_nascimento) são válidos. Caso não sejam, a procedure não realiza a inserção e retorna uma mensagem de erro.
-- `Procedure 2`: sp_insert_disco: Insere um novo disco na tabela tb_disco, verificando se os dados de entrada (titulo_disco, tempo_disco, ano_lancamento, id_artista, id_gravadora, id_genero) são válidos e não nulos. Para garantir que o tempo total do disco seja a soma do tempo das músicas que o compõem, a procedure realiza uma soma do tempo das músicas com o mesmo id_disco do disco a ser inserido e compara com o valor passado como parâmetro. Caso os dados de entrada não sejam válidos, a procedure não realiza a inserção e retorna uma mensagem de erro.
-- `Procedure 3`: sp_insert_gravadora: Insere uma nova gravadora na tabela tb_gravadora, verificando se os dados de entrada (nome_gravadora, id_pais) são válidos e não nulos. Caso não sejam, a procedure não realiza a inserção e retorna uma mensagem de erro.
-- `Procedure 4`: sp_insert_genero: Insere um novo gênero musical na tabela tb_genero, verificando se os dados de entrada (nome_genero) são válidos e não nulos. Caso não sejam, a procedure não realiza a inserção e retorna uma mensagem de erro.
-- `Procedure 5`: sp_insert_musica: Insere uma nova música na tabela tb_musica, verificando se os dados de entrada (nome_musica, tempo_musica, id_disco) são válidos e não nulos. Caso não sejam, a procedure não realiza a inserção e retorna uma mensagem de erro.
+- `Procedure 2`: sp_insert_disco: Insere um novo disco na tabela tb_disco, se os dados de entrada (titulo_disco, tempo_disco, ano_lancamento, id_artista, id_gravadora, id_genero) são válidos.
+- `Procedure 3`: sp_insert_gravadora: Insere uma nova gravadora na tabela tb_gravadora,  se os dados de entrada (nome_gravadora, id_pais) são válidos.
+- `Procedure 4`: sp_insert_genero: Insere um novo gênero musical na tabela tb_genero, se os dados de entrada (nome_genero) são válidos.
+- `Procedure 5`: sp_insert_musica: Insere uma nova música na tabela tb_musica, verificando se os dados de entrada (nome_musica, tempo_musica, id_disco) são válidos.
 ### Procedures de DELETE
 - `Procedure 6`: sp_delete_artista: Deleta um artista da tabela artista, pelo o id do artista.
 - `Procedure 7`: sp_delete_gravadora: Deleta uma gravadora da tabela gravadora, pelo o id da gravadora.
